@@ -1,0 +1,50 @@
+$back: #f2f2f0;
+$lupa: #e2459e;
+
+body {
+  background-color: $back;
+}
+
+.search-character {
+  height: 31px;
+  padding-top: 3px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  font-size: 15px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.find-button {
+  background-color: $lupa;
+  cursor: pointer;
+  height: 36px;
+  width: 40px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.logo-button {
+  height: 20px;
+  width: 20px;
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.result {
+  margin-left: 40px;
+}
+
+.container-characters {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

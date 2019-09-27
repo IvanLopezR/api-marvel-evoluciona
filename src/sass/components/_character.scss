@@ -1,0 +1,25 @@
+$back-card:#FFFFFF;
+
+.character-container{
+    width: 270px;
+    margin:10px;
+    border-radius: 5px;
+    border: 1px;
+    background-color:$back-card;
+}
+
+.character-img{
+    border-radius: 5px 5px 0px 0px;
+}
+
+.character-name{
+    margin: 15px;
+}
+
+.character-description{
+    margin: 0px 15px 15px 15px;
+}
+
+.character-list{
+    margin: 0px 15px 20px 0px;
+}
